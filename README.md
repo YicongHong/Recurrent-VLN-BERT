@@ -4,7 +4,7 @@ Code of the Recurrent-VLN-BERT paper:
 **A Recurrent Vision-and-Language BERT for Navigation**<br>
 [**Yicong Hong**](http://www.yiconghong.me/), [Qi Wu](http://www.qi-wu.me/), [Yuankai Qi](https://sites.google.com/site/yuankiqi/home), [Cristian Rodriguez-Opazo](https://crodriguezo.github.io/), [Stephen Gould](http://users.cecs.anu.edu.au/~sgould/)<br>
 
-[[Paper & Appendices](https://arxiv.org/abs/2011.13922) | [GitHub](https://github.com/YicongHong/Entity-Graph-VLN)]
+[[Paper & Appendices](https://arxiv.org/abs/2011.13922) | [GitHub](https://github.com/YicongHong/Recurrent-VLN-BERT)]
 
 ## Prerequisites
 
