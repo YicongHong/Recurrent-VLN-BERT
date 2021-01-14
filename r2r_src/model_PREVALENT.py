@@ -51,7 +51,7 @@ class VLNBERT(nn.Module):
             cand_feats[..., :-args.angle_feat_size] = self.drop_env(cand_feats[..., :-args.angle_feat_size])
 
             # logit is the attention scores over the candidate features
-            h_t, logit = self.vln_bert(mode, state_feats,
+            h_t, logit, attended_language, attended_visual = self.vln_bert(mode, state_feats,
                 attention_mask=attention_mask, lang_mask=lang_mask, vis_mask=vis_mask, img_feats=cand_feats)
 
             # update agent's state, unify history, language and vision by elementwise product

@@ -439,4 +439,11 @@ class VLNBert(BertPreTrainedModel):
             language_state_scores = language_attention_scores.mean(dim=1)
             visual_action_scores = visual_attention_scores.mean(dim=1)
 
-            return pooled_output, visual_action_scores
+            # weighted_feat
+            language_attention_probs = nn.Softmax(dim=-1)(language_state_scores.clone()).unsqueeze(-1)
+            visual_attention_probs = nn.Softmax(dim=-1)(visual_action_scores.clone()).unsqueeze(-1)
+
+            attended_language = (language_attention_probs * text_embeds[:, 1:, :]).sum(1)
+            attended_visual = (visual_attention_probs * img_embedding_output).sum(1)
+
+            return pooled_output, visual_action_scores, attended_language, attended_visual
