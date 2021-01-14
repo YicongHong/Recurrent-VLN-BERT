@@ -1,4 +1,4 @@
-# Recurrent-VLN-BERT
+# Recurrent VLN-BERT
 
 Code of the Recurrent-VLN-BERT paper:
 **A Recurrent Vision-and-Language BERT for Navigation**<br>
@@ -53,45 +53,28 @@ Our code is based on the code structure of the [EnvDrop](https://github.com/airs
 
 To replicate the performance reported in our paper, load the trained network weights and run validation:
 ```bash
-bash run/agent.bash
+bash run/test_agent.bash
 ```
+
+You can simply switch between the OSCAR-based and the PREVALENT-based VLN models by changing the arguments `vlnmodel` (oscar or prevalent) and `load` (trained model paths).
 
 ### Training
 
 #### Navigator
 
-To train the network from scratch, first train a Navigator on the R2R training split:
-
-Modify `run/agent.bash`, remove the argument for `--load` and set `--train listener`. Then,
+To train the network from scratch, simply run:
 ```bash
-bash run/agent.bash
+bash run/train_agent.bash
 ```
 The trained Navigator will be saved under `snap/`.
 
-#### Speaker
-
-You also need to train a [Speaker](https://github.com/airsplay/R2R-EnvDrop) for augmented training:
-```bash
-bash run/speak.bash
-```
-The trained Speaker will be saved under `snap/`.
-
-#### Augmented Navigator
-
-Finally, keep training the Navigator with the mixture of original data and [augmented data](http://www.cs.unc.edu/~airsplay/aug_paths.json):
-```bash
-bash run/bt_envdrop.bash
-```
-We apply a one-step learning rate decay to 1e-5 when training saturates.
-
 ## Citation
-If you use or discuss our Entity Relationship Graph, please cite our paper:
+If you use or discuss our Recurrent VLN-BERT, please cite our paper:
 ```
-@article{hong2020language,
-  title={Language and Visual Entity Relationship Graph for Agent Navigation},
-  author={Hong, Yicong and Rodriguez, Cristian and Qi, Yuankai and Wu, Qi and Gould, Stephen},
-  journal={Advances in Neural Information Processing Systems},
-  volume={33},
+@article{hong2020recurrent,
+  title={A Recurrent Vision-and-Language BERT for Navigation},
+  author={Hong, Yicong and Wu, Qi and Qi, Yuankai and Rodriguez-Opazo, Cristian and Gould, Stephen},
+  journal={arXiv preprint arXiv:2011.13922},
   year={2020}
 }
 ```
