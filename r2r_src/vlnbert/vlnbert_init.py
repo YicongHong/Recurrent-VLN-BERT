@@ -1,8 +1,5 @@
 # Recurrent VLN-BERT, 2020, by Yicong.Hong@anu.edu.au
 
-import sys
-sys.path.append('Oscar/Oscar')
-
 from transformers.pytorch_transformers import (BertConfig, BertTokenizer)
 
 def get_tokenizer(args):

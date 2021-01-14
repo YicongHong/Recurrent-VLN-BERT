@@ -9,8 +9,6 @@ from torch import nn
 import torch.nn.functional as F
 from torch.nn import CrossEntropyLoss, MSELoss
 
-import sys
-sys.path.append('Oscar/Oscar')
 from transformers.pytorch_transformers.modeling_bert import (BertEmbeddings,
         BertSelfAttention, BertAttention, BertEncoder, BertLayer,
         BertSelfOutput, BertIntermediate, BertOutput,
