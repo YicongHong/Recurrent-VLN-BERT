@@ -570,7 +570,7 @@ def print_progress(iteration, total, prefix='', suffix='', decimals=1, bar_lengt
 
 def ndtw_initialize():
     ndtw_criterion = {}
-    scan_gts_dir = '/students/u5399302/MatterportData/data/id_paths.json'
+    scan_gts_dir = 'data/id_paths.json'
     with open(scan_gts_dir) as f_:
         scan_gts = json.load(f_)
     all_scan_ids = []
