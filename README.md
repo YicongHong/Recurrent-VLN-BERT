@@ -47,8 +47,6 @@ Please refer to [vlnbert_init.py](https://github.com/YicongHong/Recurrent-VLN-BE
 
 Please read Peter Anderson's VLN paper for the [R2R Navigation task](https://arxiv.org/abs/1711.07280).
 
-Our code is based on the code structure of the [EnvDrop](https://github.com/airsplay/R2R-EnvDrop).
-
 ### Reproduce Testing Results
 
 To replicate the performance reported in our paper, load the trained network weights and run validation:
@@ -56,7 +54,7 @@ To replicate the performance reported in our paper, load the trained network wei
 bash run/test_agent.bash
 ```
 
-You can simply switch between the OSCAR-based and the PREVALENT-based VLN models by changing the arguments `vlnmodel` (oscar or prevalent) and `load` (trained model paths).
+You can simply switch between the OSCAR-based and the PREVALENT-based VLN models by changing the arguments `vlnbert` (oscar or prevalent) and `load` (trained model paths).
 
 ### Training
 

@@ -1,4 +1,4 @@
-name=VLNBERT-test
+name=VLNBERT-test-Prevalent
 
 flag="--vlnbert prevalent
 

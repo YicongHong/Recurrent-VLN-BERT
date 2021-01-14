@@ -1,4 +1,4 @@
-name=VLNBERT-train
+name=VLNBERT-train-Prevalent
 
 flag="--vlnbert prevalent
 
