@@ -29,6 +29,15 @@ Please follow the instructions below to prepare the data in directories:
 - MP3D image features: `img_features`
     - Download the [Scene features [4.2GB]](https://www.dropbox.com/s/85tpa6tc3enl5ud/ResNet-152-places365.zip?dl=1) (ResNet-152-Places365).
 
+### Initial OSCAR and PREVALENT weights
+
+Please refer to [vlnbert_init.py](https://github.com/YicongHong/Recurrent-VLN-BERT/blob/main/r2r_src/vlnbert/vlnbert_init.py) to set up the directories.
+
+- Pre-trained [OSCAR](https://github.com/microsoft/Oscar) weights
+    - Download the `base-no-labels` following [this guide](https://github.com/microsoft/Oscar/blob/master/DOWNLOAD.md).
+- Pre-trained [PREVALENT](https://github.com/weituo12321/PREVALENT) weights
+    - Download the `pytorch_model.bin` from [here](https://drive.google.com/drive/folders/1sW2xVaSaciZiQ7ViKzm_KbrLD_XvOq5y).
+
 ### Trained Network Weights
 
 - Recurrent-VLN-BERT: `snap`
