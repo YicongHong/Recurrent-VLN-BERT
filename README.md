@@ -1,6 +1,6 @@
 # Recurrent VLN-BERT
 
-Code of the Recurrent-VLN-BERT paper:
+Code of the **CVPR 2021 Oral** paper:<br>
 **A Recurrent Vision-and-Language BERT for Navigation**<br>
 [**Yicong Hong**](http://www.yiconghong.me/), [Qi Wu](http://www.qi-wu.me/), [Yuankai Qi](https://sites.google.com/site/yuankiqi/home), [Cristian Rodriguez-Opazo](https://crodriguezo.github.io/), [Stephen Gould](http://users.cecs.anu.edu.au/~sgould/)<br>
 
