@@ -10,7 +10,8 @@ Code of the **CVPR 2021 Oral** paper:<br>
 
 ### Installation
 
-Install the [Matterport3D Simulator](https://github.com/peteanderson80/Matterport3DSimulator).
+Install the [Matterport3D Simulator](https://github.com/peteanderson80/Matterport3DSimulator). Notice that this code uses the [old version (v0.1)](https://github.com/peteanderson80/Matterport3DSimulator/tree/v0.1) of the simulator, but you can easily change to the latest version which supports batches of agents and it is much more efficient.
+
 Please find the versions of packages in our environment [here](https://github.com/YicongHong/Recurrent-VLN-BERT/blob/main/recurrent-vln-bert.yml).
 
 Install the [Pytorch-Transformers](https://github.com/huggingface/transformers).
