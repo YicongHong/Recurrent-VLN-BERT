@@ -4,7 +4,9 @@ Code of the **CVPR 2021 Oral** paper:<br>
 **A Recurrent Vision-and-Language BERT for Navigation**<br>
 [**Yicong Hong**](http://www.yiconghong.me/), [Qi Wu](http://www.qi-wu.me/), [Yuankai Qi](https://sites.google.com/site/yuankiqi/home), [Cristian Rodriguez-Opazo](https://crodriguezo.github.io/), [Stephen Gould](http://users.cecs.anu.edu.au/~sgould/)<br>
 
-[[Paper & Appendices](https://arxiv.org/abs/2011.13922)]:new::new::new: [[GitHub](https://github.com/YicongHong/Recurrent-VLN-BERT)]
+[[Paper & Appendices](https://arxiv.org/abs/2011.13922)] [[GitHub](https://github.com/YicongHong/Recurrent-VLN-BERT)]
+
+"*Neo : Are you saying I have to choose whether Trinity lives or dies? The Oracle : No, you've already made the choice. Now you have to understand it.*" --- [The Matrix Reloaded](https://www.imdb.com/title/tt0234215/).
 
 ## Prerequisites
 
@@ -70,10 +72,12 @@ The trained Navigator will be saved under `snap/`.
 ## Citation
 If you use or discuss our Recurrent VLN-BERT, please cite our paper:
 ```
-@article{hong2020recurrent,
-  title={A Recurrent Vision-and-Language BERT for Navigation},
-  author={Hong, Yicong and Wu, Qi and Qi, Yuankai and Rodriguez-Opazo, Cristian and Gould, Stephen},
-  journal={arXiv preprint arXiv:2011.13922},
-  year={2020}
+@InProceedings{Hong_2021_CVPR,
+    author    = {Hong, Yicong and Wu, Qi and Qi, Yuankai and Rodriguez-Opazo, Cristian and Gould, Stephen},
+    title     = {VLN BERT: A Recurrent Vision-and-Language BERT for Navigation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2021},
+    pages     = {1643-1653}
 }
 ```
