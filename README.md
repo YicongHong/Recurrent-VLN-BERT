@@ -74,7 +74,7 @@ If you use or discuss our Recurrent VLN-BERT, please cite our paper:
 ```
 @InProceedings{Hong_2021_CVPR,
     author    = {Hong, Yicong and Wu, Qi and Qi, Yuankai and Rodriguez-Opazo, Cristian and Gould, Stephen},
-    title     = {VLN BERT: A Recurrent Vision-and-Language BERT for Navigation},
+    title     = {A Recurrent Vision-and-Language BERT for Navigation},
     booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month     = {June},
     year      = {2021},
