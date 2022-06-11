@@ -6,7 +6,7 @@ Code of the **CVPR 2021 Oral** paper:<br>
 
 [[Paper & Appendices](https://arxiv.org/abs/2011.13922)] [[GitHub](https://github.com/YicongHong/Recurrent-VLN-BERT)]
 
-"*Neo : Are you saying I have to choose whether Trinity lives or dies? The Oracle : No, you've already made the choice. Now you have to understand it.*" --- [The Matrix Reloaded 2003](https://www.imdb.com/title/tt0234215/).
+"*Neo : Are you saying I have to choose whether Trinity lives or dies? The Oracle : No, you've already made the choice. Now you have to understand it.*" --- [The Matrix Reloaded (2003)](https://www.imdb.com/title/tt0234215/).
 
 ## Prerequisites
 
